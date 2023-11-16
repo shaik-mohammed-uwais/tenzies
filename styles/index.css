@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Epilogue:wght@400;500;600;700&family=Montserrat:wght@400;600;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700&display=swap");
+
+button {
+  border-radius: 8px;
+  border: 1.5px solid transparent;
+  border-color: #646cff;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #240046;
+  cursor: pointer;
+  color: #f9f9f9;
+  font-family: "Nunito Sans", sans-serif;
+  transition: border-color 0.3s;
+}
+
+button:hover {
+  border-color: #00d4fe;
+}
+button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* ====================== media quries ======================= */
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .content-wrapper {
+    gap: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .current-score,
+  .high-score {
+    width: 60px;
+    padding: 6px;
+    font-size: 14px;
+  }
+  .dice-face {
+    height: 60px;
+    width: 60px;
+  }
+  button {
+    padding: 0.6em 1.2em;
+    font-size: 1.2rem;
+  }
+  .title {
+    font-size: 44px;
+  }
+  .instructions {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 625px) {
+  .content-wrapper {
+    gap: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .current-score,
+  .high-score {
+    width: 60px;
+    padding: 6px;
+    font-size: 14px;
+  }
+  .dice-face {
+    height: 60px;
+    width: 60px;
+  }
+  button {
+    padding: 0.6em 1.2em;
+    font-size: 1.2rem;
+  }
+  .title {
+    font-size: 44px;
+  }
+  .instructions {
+    font-size: 16px;
+  }
+}
