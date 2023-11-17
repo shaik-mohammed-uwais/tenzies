@@ -29,6 +29,8 @@ Quickly identify and match the numbers to score points.
 Beat Your High Score:
 Try to surpass your previous high score and challenge yourself to improve.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 colors used{
 #352f44
 #f5f5f5
@@ -38,7 +40,6 @@ colors used{
 #B9B4C7
 #5C5470
 }
-
 black shades{
 #121212
 #1d1d1d
@@ -46,14 +47,12 @@ black shades{
 #373737
 #2d2d2d
 }
-
 alternate pallet{
 #2C3333
 #2E4F4F
 #0E8388
 #CBE4DE
 }
-
 alternate shades for score card{
 #fe9b71
 #b592fd
@@ -61,7 +60,6 @@ alternate shades for score card{
 #00d4fe
 #fec970
 }
-
 fonts{
 font-family: 'Bebas Neue', sans-serif;
 font-family: 'Epilogue', sans-serif;
